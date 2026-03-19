@@ -1,0 +1,11 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+    <file>icons/linuxcleaner.png</file>
+    <file>icons/home.png</file>
+    <file>icons/clean.png</file>
+    <file>icons/analyze.png</file>
+    <file>icons/tools.png</file>
+    <file>icons/settings.png</file>
+    <file>styles/dark.qss</file>
+</qresource>
+</RCC>

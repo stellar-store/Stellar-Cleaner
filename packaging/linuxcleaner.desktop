@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LinuxCleaner
+GenericName=System Cleaner
+GenericName[es]=Limpiador del Sistema
+Comment[es]=Limpiador profesional del sistema Linux
+Exec=linuxcleaner
+Icon=linuxcleaner
+Terminal=false
+StartupNotify=true
+Categories=System;Utility;
+Keywords=clean;cache;temp;system;disk;
