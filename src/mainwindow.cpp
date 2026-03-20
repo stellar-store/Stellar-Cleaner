@@ -17,7 +17,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
     setWindowFlags(Qt::FramelessWindowHint);  // Remove system window frame
     setMinimumSize(1100, 700);
     resize(1280, 800);
-    setWindowIcon(QIcon(":/icons/linuxcleaner.png"));
+    setWindowIcon(QIcon(":/icons/stellarcleaner.png"));
 
     loadStyleSheet();
     setupUI();

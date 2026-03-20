@@ -1,4 +1,4 @@
-# 🧹 LinuxCleaner v1.0.0
+# 🧹 StellarCleaner v1.0.0
 
 **Limpiador profesional del sistema Linux — C++17 + Qt6**
 
@@ -59,8 +59,8 @@
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/linuxcleaner.git
-cd linuxcleaner
+git clone https://github.com/tu-usuario/stellarcleaner.git
+cd stellarcleaner
 
 # Instalar con script automático
 chmod +x packaging/install.sh
@@ -91,7 +91,7 @@ sudo make install
 ## 📁 Estructura del Proyecto
 
 ```
-LinuxCleaner/
+StellarCleaner/
 ├── CMakeLists.txt
 ├── README.md
 ├── src/
@@ -130,7 +130,7 @@ LinuxCleaner/
 │   ├── icons/
 │   └── styles/dark.qss              # Tema oscuro completo
 └── packaging/
-    ├── linuxcleaner.desktop         # Entrada de menú
+    ├── stellarcleaner.desktop         # Entrada de menú
     ├── install.sh                   # Instalador automático
     └── uninstall.sh                 # Desinstalador
 ```

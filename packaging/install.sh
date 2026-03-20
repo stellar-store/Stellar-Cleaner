@@ -1,7 +1,7 @@
 #!/bin/bash
-# LinuxCleaner - Installation script
+# StellarCleaner - Installation script
 set -e
-echo "=== LinuxCleaner v1.0.0 - Instalador ==="
+echo "=== StellarCleaner v1.0.0 - Instalador ==="
 if command -v apt-get &>/dev/null; then
     echo "[+] Instalando dependencias Qt6 (APT)..."
     sudo apt-get update -qq
@@ -20,9 +20,9 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j$(nproc)
 echo "[+] Instalando binario y archivos..."
 sudo make install
-sudo cp ../resources/icons/linuxcleaner.png /usr/share/pixmaps/ 2>/dev/null || true
-sudo cp ../packaging/linuxcleaner.desktop /usr/share/applications/ 2>/dev/null || true
+sudo cp ../resources/icons/stellarcleaner.png /usr/share/pixmaps/ 2>/dev/null || true
+sudo cp ../packaging/stellarcleaner.desktop /usr/share/applications/ 2>/dev/null || true
 sudo update-desktop-database /usr/share/applications/ 2>/dev/null || true
 echo ""
 echo "=== Instalacion completa ==="
-echo "Ejecuta: linuxcleaner"
+echo "Ejecuta: stellarcleaner"

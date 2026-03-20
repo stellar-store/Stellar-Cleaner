@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(LinuxCleaner VERSION 1.0.0 LANGUAGES CXX)
+project(StellarCleaner VERSION 1.0.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -72,17 +72,17 @@ set(HEADERS
     src/utils/scheduler.h
 )
 
-add_executable(LinuxCleaner ${SOURCES} ${HEADERS})
+add_executable(StellarCleaner ${SOURCES} ${HEADERS})
 
 if(QT_VERSION_MAJOR EQUAL 6)
-    target_link_libraries(LinuxCleaner
+    target_link_libraries(StellarCleaner
         Qt6::Widgets
         Qt6::Core
         Qt6::Concurrent
         Qt6::Charts
     )
 else()
-    target_link_libraries(LinuxCleaner
+    target_link_libraries(StellarCleaner
         Qt5::Widgets
         Qt5::Core
         Qt5::Concurrent
@@ -91,12 +91,12 @@ else()
 endif()
 
 # Install targets
-install(TARGETS LinuxCleaner DESTINATION /usr/local/bin)
-install(FILES packaging/linuxcleaner.desktop DESTINATION /usr/share/applications)
-install(FILES resources/icons/linuxcleaner.png DESTINATION /usr/share/pixmaps)
+install(TARGETS StellarCleaner DESTINATION /usr/local/bin)
+install(FILES packaging/stellarcleaner.desktop DESTINATION /usr/share/applications)
+install(FILES resources/icons/stellarcleaner.png DESTINATION /usr/share/pixmaps)
 
 # Package with CPack
-set(CPACK_PACKAGE_NAME "LinuxCleaner")
+set(CPACK_PACKAGE_NAME "StellarCleaner")
 set(CPACK_PACKAGE_VERSION "1.0.0")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Professional Linux system cleaner")
 set(CPACK_GENERATOR "DEB;RPM;TGZ")

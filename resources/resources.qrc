@@ -1,6 +1,6 @@
 <!DOCTYPE RCC><RCC version="1.0">
 <qresource prefix="/">
-    <file>icons/linuxcleaner.png</file>
+    <file>icons/stellarcleaner.png</file>
     <file>icons/home.png</file>
     <file>icons/clean.png</file>
     <file>icons/analyze.png</file>
