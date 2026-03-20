@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "/home/gus/Downloads/Cleaner/build/StellarCleaner_autogen",
+	"CMAKE_BINARY_DIR" : "/home/gus/Downloads/Cleaner/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/gus/Downloads/Cleaner/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/gus/Downloads/Cleaner",
+	"CMAKE_SOURCE_DIR" : "/home/gus/Downloads/Cleaner",
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/gus/Downloads/Cleaner/resources/styles/dark.qss",
+		"/home/gus/Downloads/Cleaner/resources/icons/clean.png",
+		"/home/gus/Downloads/Cleaner/resources/icons/analyze.png",
+		"/home/gus/Downloads/Cleaner/resources/icons/settings.png",
+		"/home/gus/Downloads/Cleaner/resources/icons/stellarcleaner.png",
+		"/home/gus/Downloads/Cleaner/resources/icons/tools.png",
+		"/home/gus/Downloads/Cleaner/resources/icons/home.png"
+	],
+	"LOCK_FILE" : "/home/gus/Downloads/Cleaner/build/CMakeFiles/StellarCleaner_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/gus/Downloads/Cleaner/build/CMakeFiles/StellarCleaner_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Used.txt",
+	"SOURCE" : "/home/gus/Downloads/Cleaner/resources/resources.qrc",
+	"VERBOSITY" : 0
+}
