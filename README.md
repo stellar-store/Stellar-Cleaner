@@ -4,6 +4,7 @@
 
 > Alternativa a CCleaner diseñada nativamente para Linux, con interfaz oscura moderna, limpieza inteligente y análisis de disco.
 
+<img width="1366" height="729" alt="StellarCleaner" src="https://github.com/user-attachments/assets/55201821-86a7-4579-8395-b0434fe83ae1" />
 ---
 
 ## ✨ Características
