@@ -11,10 +11,15 @@
 #include <QSettings>
 #include <QMessageBox>
 #include <QIcon>
+#include <QPainterPath>
+#include <QRegion>
+#include <QResizeEvent>
+#include <QPushButton>
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
     setWindowTitle("Stellar Cleaner");
     setWindowFlags(Qt::FramelessWindowHint);  // Remove system window frame
+    setAttribute(Qt::WA_TranslucentBackground);  // Enable transparent background for rounded corners
     setMinimumSize(1100, 700);
     resize(1280, 800);
     setWindowIcon(QIcon(":/icons/stellarcleaner.png"));
@@ -26,6 +31,9 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
     // Restore geometry
     QSettings s("Stellar Cleaner", "Window");
     if (s.contains("geometry")) restoreGeometry(s.value("geometry").toByteArray());
+    
+    // Apply rounded corners on initial show
+    applyRoundedCorners();
 }
 
 void MainWindow::loadStyleSheet() {
@@ -117,6 +125,18 @@ void MainWindow::setupStatusBar() {
     sb->addWidget(new QLabel(" | "));
     sb->addWidget(new QLabel("⚙️ " + si.packageManagerName()));
     sb->addPermanentWidget(m_statusFreed);
+    
+    // Add about button
+    m_aboutBtn = new QPushButton("ℹ️ Acerca de", this);
+    m_aboutBtn->setMaximumWidth(120);
+    m_aboutBtn->setStyleSheet(
+        "QPushButton { background:#00d4aa; color:#0f1117; border:none; "
+        "padding:4px 10px; border-radius:4px; font-weight:bold; font-size:10px; }"
+        "QPushButton:hover { background:#00e4ba; }"
+        "QPushButton:pressed { background:#00c494; }"
+    );
+    connect(m_aboutBtn, &QPushButton::clicked, this, &MainWindow::showAbout);
+    sb->addPermanentWidget(m_aboutBtn);
     sb->addPermanentWidget(new QLabel("Stellar Cleaner v1.0.0  "));
 }
 
@@ -126,8 +146,8 @@ void MainWindow::onPageRequested(int idx) {
         m_sidebar->setActiveIndex(idx);
         // Update title bar
         QStringList titles = {
-            "Panel de Control","Limpiador del Sistema",
-            "Analizador de Disco","Herramientas","Configuración"
+            "Panel de Control", "Limpiador del Sistema",
+            "Analizador de Disco", "Herramientas", "Configuración"
         };
         if (idx < titles.size())
             m_titleBar->setTitle("Stellar Cleaner — " + titles[idx]);
@@ -150,4 +170,31 @@ void MainWindow::closeEvent(QCloseEvent *event) {
 void MainWindow::resizeEvent(QResizeEvent *event) {
     QMainWindow::resizeEvent(event);
     m_titleBar->setMaximized(isMaximized());
+    applyRoundedCorners();  // Apply rounded corners on resize
+}
+
+void MainWindow::applyRoundedCorners() {
+    // Create a rounded rectangle path
+    QPainterPath path;
+    const int radius = 15;  // Radius of rounded corners in pixels
+    path.addRoundedRect(rect(), radius, radius);
+    
+    // Apply the path as a mask to create rounded corners
+    setMask(QRegion(path.toFillPolygon().toPolygon()));
+}
+
+void MainWindow::showAbout() {
+    QMessageBox::information(this, "Acerca de Stellar Cleaner",
+        "<h2>Stellar Cleaner v1.0.0</h2>"
+        "<p><b>Un potente limpiador de sistema para Linux</b></p>"
+        "<h3>Características:</h3>"
+        "<ul>"
+        "<li>🧹 Limpieza de archivos temporales</li>"
+        "<li>🔍 Análisis completo del disco</li>"
+        "<li>🌐 Limpieza de navegadores y caché</li>"
+        "<li>📦 Gestor de paquetes</li>"
+        "<li>🛠️ Herramientas avanzadas del sistema</li>"
+        "</ul>"
+        "<p><b>© 2026 - Todos los derechos reservados</b></p>"
+    );
 }

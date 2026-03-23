@@ -3,6 +3,7 @@
 #include <QStackedWidget>
 #include <QStatusBar>
 #include <QLabel>
+#include <QPushButton>
 #include "ui/sidebar.h"
 #include "ui/titlebar.h"
 #include "ui/dashboard.h"
@@ -23,11 +24,13 @@ protected:
 private slots:
     void onPageRequested(int idx);
     void onTotalFreedChanged(qint64 bytes);
+    void showAbout();
 
 private:
     void setupUI();
     void loadStyleSheet();
     void setupStatusBar();
+    void applyRoundedCorners();
 
     TitleBar      *m_titleBar;
     Sidebar       *m_sidebar;
@@ -42,5 +45,6 @@ private:
     QLabel *m_statusDistro;
     QLabel *m_statusUser;
     QLabel *m_statusFreed;
+    QPushButton *m_aboutBtn;
     qint64 m_totalFreedSession = 0;
 };
