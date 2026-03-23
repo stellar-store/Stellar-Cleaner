@@ -73,7 +73,7 @@ StellarCleaner_autogen/timestamp: /usr/lib/qt6/libexec/moc
 StellarCleaner_autogen/timestamp: /usr/lib/qt6/libexec/uic
 StellarCleaner_autogen/timestamp: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target StellarCleaner"
-	/usr/bin/cmake -E cmake_autogen /home/gus/Downloads/Cleaner/build/CMakeFiles/StellarCleaner_autogen.dir/AutogenInfo.json Release
+	/usr/bin/cmake -E cmake_autogen /home/gus/Downloads/Cleaner/build/CMakeFiles/StellarCleaner_autogen.dir/AutogenInfo.json ""
 	/usr/bin/cmake -E touch /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/timestamp
 
 StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/gus/Downloads/Cleaner/resources/resources.qrc
@@ -87,7 +87,7 @@ StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/gus/Downloads/Cleaner
 StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/gus/Downloads/Cleaner/resources/icons/home.png
 StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for resources/resources.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/gus/Downloads/Cleaner/build/CMakeFiles/StellarCleaner_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Info.json Release
+	/usr/bin/cmake -E cmake_autorcc /home/gus/Downloads/Cleaner/build/CMakeFiles/StellarCleaner_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Info.json 
 
 CMakeFiles/StellarCleaner.dir/StellarCleaner_autogen/mocs_compilation.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/StellarCleaner_autogen/mocs_compilation.cpp.o: StellarCleaner_autogen/mocs_compilation.cpp

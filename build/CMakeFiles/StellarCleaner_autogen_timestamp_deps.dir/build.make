@@ -66,12 +66,12 @@ include CMakeFiles/StellarCleaner_autogen_timestamp_deps.dir/compiler_depend.mak
 # Include the progress variables for this target.
 include CMakeFiles/StellarCleaner_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/StellarCleaner_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 CMakeFiles/StellarCleaner_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
-CMakeFiles/StellarCleaner_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
-CMakeFiles/StellarCleaner_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
-CMakeFiles/StellarCleaner_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Concurrent.so.6.4.2
 CMakeFiles/StellarCleaner_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.4.2
+CMakeFiles/StellarCleaner_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Concurrent.so.6.4.2
+CMakeFiles/StellarCleaner_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
+CMakeFiles/StellarCleaner_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+CMakeFiles/StellarCleaner_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 
 StellarCleaner_autogen_timestamp_deps: CMakeFiles/StellarCleaner_autogen_timestamp_deps
 StellarCleaner_autogen_timestamp_deps: CMakeFiles/StellarCleaner_autogen_timestamp_deps.dir/build.make
