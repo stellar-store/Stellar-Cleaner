@@ -86,56 +86,6 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j$(nproc)
 sudo make install
 ```
-
----
-
-## 📁 Estructura del Proyecto
-
-```
-StellarCleaner/
-├── CMakeLists.txt
-├── README.md
-├── src/
-│   ├── main.cpp
-│   ├── mainwindow.h/cpp
-│   ├── cleaner/
-│   │   ├── basecleaner.h/cpp        # Clase base abstracta
-│   │   ├── tempcleaner.h/cpp        # Archivos temporales
-│   │   ├── browsercleaner.h/cpp     # Navegadores web
-│   │   ├── logcleaner.h/cpp         # Logs del sistema
-│   │   ├── packagecleaner.h/cpp     # Caché de paquetes
-│   │   ├── privacycleaner.h/cpp     # Rastros de privacidad
-│   │   └── trashcleaner.h/cpp       # Papelera
-│   ├── analyzer/
-│   │   └── diskanalyzer.h/cpp       # Analizador + TreeMap
-│   ├── tools/
-│   │   ├── startupmanager.h/cpp     # Gestor de inicio
-│   │   ├── processmanager.h/cpp     # Gestor de procesos
-│   │   └── uninstallmanager.h/cpp   # Desinstalador
-│   ├── utils/
-│   │   ├── fileutils.h/cpp          # Utilidades de archivos
-│   │   ├── systeminfo.h/cpp         # Info del sistema
-│   │   ├── sudohelper.h/cpp         # Operaciones con sudo
-│   │   └── scheduler.h/cpp          # Programador automático
-│   └── ui/
-│       ├── sidebar.h/cpp            # Barra lateral
-│       ├── titlebar.h/cpp           # Barra de título
-│       ├── dashboard.h/cpp          # Panel principal
-│       ├── cleanerpage.h/cpp        # Página limpiador
-│       ├── analyzerpage.h/cpp       # Página analizador
-│       ├── toolspage.h/cpp          # Página herramientas
-│       ├── settingspage.h/cpp       # Página ajustes
-│       └── logviewer.h/cpp          # Visor de logs
-├── resources/
-│   ├── resources.qrc
-│   ├── icons/
-│   └── styles/dark.qss              # Tema oscuro completo
-└── packaging/
-    ├── stellarcleaner.desktop         # Entrada de menú
-    ├── install.sh                   # Instalador automático
-    └── uninstall.sh                 # Desinstalador
-```
-
 ---
 
 ## ⚠️ Seguridad
