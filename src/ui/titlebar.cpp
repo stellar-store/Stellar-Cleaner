@@ -17,12 +17,12 @@ TitleBar::TitleBar(QWidget *parent) : QWidget(parent) {
     lay->setSpacing(8);
 
     lay->addSpacing(8);
-    m_titleLbl = new QLabel("Stellar Cleaner", this);
+    m_titleLbl = new QLabel("Stellar", this);
     QFont f = m_titleLbl->font();
     f.setPointSize(11);
     f.setWeight(QFont::Medium);
     m_titleLbl->setFont(f);
-    m_titleLbl->setStyleSheet("color:#8892a4;");
+    m_titleLbl->setStyleSheet("color:#037df8;");
     lay->addWidget(m_titleLbl);
 
     lay->addStretch();
@@ -38,7 +38,7 @@ TitleBar::TitleBar(QWidget *parent) : QWidget(parent) {
     m_minimizeBtn->setFixedSize(28, 28);
     m_minimizeBtn->setText("−");
     m_minimizeBtn->setStyleSheet(
-        "QPushButton { background:#ff5f57; border:none; border-radius:6px; color:white; font-weight:bold; }"
+        "QPushButton { background:#ff5f57; border:none; border-radius:14px; color:white; font-weight:bold; }"
         "QPushButton:hover { background:#ff6b63; }"
         "QPushButton:pressed { background:#e84e43; }"
     );
@@ -49,7 +49,7 @@ TitleBar::TitleBar(QWidget *parent) : QWidget(parent) {
     m_maximizeBtn->setFixedSize(28, 28);
     m_maximizeBtn->setText("□");
     m_maximizeBtn->setStyleSheet(
-        "QPushButton { background:#febc2e; border:none; border-radius:6px; color:white; font-weight:bold; }"
+        "QPushButton { background:#febc2e; border:none; border-radius:14px; color:white; font-weight:bold; }"
         "QPushButton:hover { background:#ffc544; }"
         "QPushButton:pressed { background:#e5a91f; }"
     );
@@ -60,7 +60,7 @@ TitleBar::TitleBar(QWidget *parent) : QWidget(parent) {
     m_closeBtn->setFixedSize(28, 28);
     m_closeBtn->setText("✕");
     m_closeBtn->setStyleSheet(
-        "QPushButton { background:#28c840; border:none; border-radius:6px; color:white; font-weight:bold; }"
+        "QPushButton { background:#28c840; border:none; border-radius:14px; color:white; font-weight:bold; }"
         "QPushButton:hover { background:#32d649; }"
         "QPushButton:pressed { background:#1f9831; }"
     );

@@ -9,6 +9,8 @@
 #include "ui/dashboard.h"
 #include "ui/cleanerpage.h"
 #include "ui/analyzerpage.h"
+#include "ui/kernelpage.h"
+#include "ui/optimizerpage.h"
 #include "ui/toolspage.h"
 #include "ui/settingspage.h"
 
@@ -39,6 +41,8 @@ private:
     Dashboard     *m_dashboard;
     CleanerPage   *m_cleanerPage;
     AnalyzerPage  *m_analyzerPage;
+    KernelPage    *m_kernelPage;
+    OptimizerPage *m_optimizerPage;
     ToolsPage     *m_toolsPage;
     SettingsPage  *m_settingsPage;
 

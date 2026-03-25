@@ -54,19 +54,29 @@ install_dependencies() {
             sudo apt-get update -qq
             
             echo "Instalando dependencias..."
-            sudo apt-get install -y \
+            sudo apt install -y \
                 build-essential \
                 cmake \
                 git \
+                sudo \
+                util-linux \
+                apt-utils \
+                hwinfo \
+                smartmontools \
                 qt6-base-dev \
                 libqt6charts6-dev \
                 qt6-qpa-plugins \
                 2>/dev/null || {
                 print_info "Qt6 no disponible, intentando Qt5..."
-                sudo apt-get install -y \
+                sudo apt install -y \
                     build-essential \
                     cmake \
                     git \
+                    sudo \
+                    util-linux \
+                    apt-utils \
+                    hwinfo \
+                    smartmontools \
                     qtbase5-dev \
                     libqt5charts5-dev
             }
@@ -79,6 +89,11 @@ install_dependencies() {
                 gcc-c++ \
                 make \
                 git \
+                sudo \
+                util-linux \
+                dnf-plugins-core \
+                hwinfo \
+                smartmontools \
                 qt6-qtbase-devel \
                 qt6-qtcharts-devel
             ;;
@@ -89,6 +104,10 @@ install_dependencies() {
                 cmake \
                 base-devel \
                 git \
+                sudo \
+                util-linux \
+                hwinfo \
+                smartmontools \
                 qt6-base \
                 qt6-charts
             ;;
@@ -100,6 +119,10 @@ install_dependencies() {
                 gcc-c++ \
                 make \
                 git \
+                sudo \
+                util-linux \
+                hwinfo \
+                smartmontools \
                 libqt6-qtbase-devel \
                 libqt6-qtcharts-devel
             ;;
@@ -108,6 +131,11 @@ install_dependencies() {
             print_info "Dependencias requeridas:"
             echo "  - build-essential/gcc-c++"
             echo "  - cmake 3.16+"
+            echo "  - git"
+            echo "  - sudo"
+            echo "  - util-linux"
+            echo "  - hwinfo"
+            echo "  - smartmontools"
             echo "  - Qt6 (o Qt5.15+)"
             echo "  - libqt6charts6-dev (o libqt5charts5-dev)"
             exit 1
@@ -163,7 +191,7 @@ run_application() {
 main() {
     echo "╔════════════════════════════════════════════════╗"
     echo "║     StellarCleaner - Limpiador del Sistema     ║"
-    echo "║                   v1.0.0                       ║"
+    echo "║                   v1.1.0                       ║"
     echo "╚════════════════════════════════════════════════╝"
     
     # Verificar si estamos en el directorio correcto

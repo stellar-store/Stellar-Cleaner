@@ -88,17 +88,25 @@ void MainWindow::setupUI() {
     m_dashboard   = new Dashboard(m_pages);
     m_cleanerPage = new CleanerPage(m_pages);
     m_analyzerPage= new AnalyzerPage(m_pages);
+    m_kernelPage  = new KernelPage(m_pages);
+    m_optimizerPage = new OptimizerPage(m_pages);
     m_toolsPage   = new ToolsPage(m_pages);
     m_settingsPage= new SettingsPage(m_pages);
 
     m_pages->addWidget(m_dashboard);    // 0
     m_pages->addWidget(m_cleanerPage);  // 1
     m_pages->addWidget(m_analyzerPage); // 2
-    m_pages->addWidget(m_toolsPage);    // 3
-    m_pages->addWidget(m_settingsPage); // 4
+    m_pages->addWidget(m_kernelPage);   // 3
+    m_pages->addWidget(m_optimizerPage); // 4
+    m_pages->addWidget(m_toolsPage);    // 5
+    m_pages->addWidget(m_settingsPage); // 6
 
     connect(m_sidebar, &Sidebar::pageRequested, this, &MainWindow::onPageRequested);
     connect(m_cleanerPage, &CleanerPage::totalFreedChanged,
+            this, &MainWindow::onTotalFreedChanged);
+    connect(m_kernelPage, &KernelPage::totalFreedChanged,
+            this, &MainWindow::onTotalFreedChanged);
+    connect(m_optimizerPage, &OptimizerPage::totalFreedChanged,
             this, &MainWindow::onTotalFreedChanged);
 
     m_pages->setCurrentIndex(0);
@@ -147,7 +155,8 @@ void MainWindow::onPageRequested(int idx) {
         // Update title bar
         QStringList titles = {
             "Panel de Control", "Limpiador del Sistema",
-            "Analizador de Disco", "Herramientas", "Configuración"
+            "Analizador de Disco", "Limpiador del Kernel",
+            "Optimizador de Rendimiento", "Herramientas", "Configuración"
         };
         if (idx < titles.size())
             m_titleBar->setTitle("Stellar Cleaner — " + titles[idx]);
@@ -176,7 +185,7 @@ void MainWindow::resizeEvent(QResizeEvent *event) {
 void MainWindow::applyRoundedCorners() {
     // Create a rounded rectangle path
     QPainterPath path;
-    const int radius = 15;  // Radius of rounded corners in pixels
+    const int radius = 7;  // Radius of rounded corners in pixels
     path.addRoundedRect(rect(), radius, radius);
     
     // Apply the path as a mask to create rounded corners

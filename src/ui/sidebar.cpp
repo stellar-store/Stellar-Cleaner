@@ -20,17 +20,19 @@ void Sidebar::setupUI() {
     // Logo
     auto *logoW = new QWidget(this);
     logoW->setObjectName("sidebarLogo");
-    logoW->setFixedHeight(72);
+    logoW->setFixedHeight(80);
     auto *logoLay = new QVBoxLayout(logoW);
     logoLay->setContentsMargins(16,12,16,12);
     logoLay->setSpacing(2);
-    auto *iconLbl = new QLabel("🧹 Stellar Cleaner", logoW);
+    auto *iconLbl = new QLabel("Stellar Cleaner", logoW);
     QFont f = iconLbl->font();
     f.setPointSize(13);
     f.setBold(true);
     iconLbl->setFont(f);
+    iconLbl->setStyleSheet("color:#037df8;");
     auto *verLbl = new QLabel("v1.0.0 — C++ Qt6", logoW);
     verLbl->setObjectName("navSection");
+    verLbl->setWordWrap(true);
     logoLay->addWidget(iconLbl);
     logoLay->addWidget(verLbl);
     root->addWidget(logoW);
@@ -44,6 +46,9 @@ void Sidebar::setupUI() {
         {":/icons/home.png", "Panel de Control"},
         {":/icons/clean.png", "Limpiador"},
         {":/icons/analyze.png", "Analizador de Disco"},
+        {"", "OPTIMIZACIÓN"},
+        {":/icons/kernel.png", "Limpiador del Kernel"},
+        {":/icons/optimizacion.png", "Optimizador de Rendimiento"},
         {"", "HERRAMIENTAS"},
         {":/icons/tools.png", "Herramientas"},
         {"", "SISTEMA"},

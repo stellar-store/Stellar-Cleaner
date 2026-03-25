@@ -6,6 +6,7 @@
     <file>icons/analyze.png</file>
     <file>icons/tools.png</file>
     <file>icons/settings.png</file>
+    <file>icons/optimizacion.png</file>
     <file>styles/dark.qss</file>
 </qresource>
 </RCC>

@@ -24,6 +24,8 @@ set(SOURCES
     src/ui/dashboard.cpp
     src/ui/cleanerpage.cpp
     src/ui/analyzerpage.cpp
+    src/ui/kernelpage.cpp
+    src/ui/optimizerpage.cpp
     src/ui/toolspage.cpp
     src/ui/settingspage.cpp
     src/ui/logviewer.cpp
@@ -34,6 +36,8 @@ set(SOURCES
     src/cleaner/packagecleaner.cpp
     src/cleaner/privacycleaner.cpp
     src/cleaner/trashcleaner.cpp
+    src/cleaner/kernelcleaner.cpp
+    src/cleaner/performancecleaner.cpp
     src/analyzer/diskanalyzer.cpp
     src/tools/startupmanager.cpp
     src/tools/processmanager.cpp
@@ -52,6 +56,8 @@ set(HEADERS
     src/ui/dashboard.h
     src/ui/cleanerpage.h
     src/ui/analyzerpage.h
+    src/ui/kernelpage.h
+    src/ui/optimizerpage.h
     src/ui/toolspage.h
     src/ui/settingspage.h
     src/ui/logviewer.h
@@ -62,6 +68,8 @@ set(HEADERS
     src/cleaner/packagecleaner.h
     src/cleaner/privacycleaner.h
     src/cleaner/trashcleaner.h
+    src/cleaner/kernelcleaner.h
+    src/cleaner/performancecleaner.h
     src/analyzer/diskanalyzer.h
     src/tools/startupmanager.h
     src/tools/processmanager.h
