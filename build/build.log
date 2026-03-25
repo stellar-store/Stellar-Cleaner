@@ -1,0 +1,5 @@
+[  0%] Built target StellarCleaner_autogen_timestamp_deps
+[  2%] Automatic MOC and UIC for target StellarCleaner
+make[2]: *** [CMakeFiles/StellarCleaner_autogen.dir/build.make:75: StellarCleaner_autogen/timestamp] Interrupção
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/StellarCleaner_autogen.dir/all] Interrupção
+make: *** [Makefile:156: all] Interrupção

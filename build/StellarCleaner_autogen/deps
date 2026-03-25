@@ -10,10 +10,14 @@ StellarCleaner_autogen/timestamp: \
 	/home/gus/Downloads/Cleaner/src/cleaner/basecleaner.h \
 	/home/gus/Downloads/Cleaner/src/cleaner/browsercleaner.cpp \
 	/home/gus/Downloads/Cleaner/src/cleaner/browsercleaner.h \
+	/home/gus/Downloads/Cleaner/src/cleaner/kernelcleaner.cpp \
+	/home/gus/Downloads/Cleaner/src/cleaner/kernelcleaner.h \
 	/home/gus/Downloads/Cleaner/src/cleaner/logcleaner.cpp \
 	/home/gus/Downloads/Cleaner/src/cleaner/logcleaner.h \
 	/home/gus/Downloads/Cleaner/src/cleaner/packagecleaner.cpp \
 	/home/gus/Downloads/Cleaner/src/cleaner/packagecleaner.h \
+	/home/gus/Downloads/Cleaner/src/cleaner/performancecleaner.cpp \
+	/home/gus/Downloads/Cleaner/src/cleaner/performancecleaner.h \
 	/home/gus/Downloads/Cleaner/src/cleaner/privacycleaner.cpp \
 	/home/gus/Downloads/Cleaner/src/cleaner/privacycleaner.h \
 	/home/gus/Downloads/Cleaner/src/cleaner/tempcleaner.cpp \
@@ -35,8 +39,12 @@ StellarCleaner_autogen/timestamp: \
 	/home/gus/Downloads/Cleaner/src/ui/cleanerpage.h \
 	/home/gus/Downloads/Cleaner/src/ui/dashboard.cpp \
 	/home/gus/Downloads/Cleaner/src/ui/dashboard.h \
+	/home/gus/Downloads/Cleaner/src/ui/kernelpage.cpp \
+	/home/gus/Downloads/Cleaner/src/ui/kernelpage.h \
 	/home/gus/Downloads/Cleaner/src/ui/logviewer.cpp \
 	/home/gus/Downloads/Cleaner/src/ui/logviewer.h \
+	/home/gus/Downloads/Cleaner/src/ui/optimizerpage.cpp \
+	/home/gus/Downloads/Cleaner/src/ui/optimizerpage.h \
 	/home/gus/Downloads/Cleaner/src/ui/settingspage.cpp \
 	/home/gus/Downloads/Cleaner/src/ui/settingspage.h \
 	/home/gus/Downloads/Cleaner/src/ui/sidebar.cpp \
@@ -386,6 +394,7 @@ StellarCleaner_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QMap \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QMargins \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/QProcess \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QRect \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QSettings \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QSize \
@@ -466,6 +475,7 @@ StellarCleaner_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qpair.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qpointer.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/qprocess.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qprocessordetection.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qpromise.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h \

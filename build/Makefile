@@ -340,6 +340,30 @@ src/cleaner/browsercleaner.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/cleaner/browsercleaner.cpp.s
 .PHONY : src/cleaner/browsercleaner.cpp.s
 
+src/cleaner/kernelcleaner.o: src/cleaner/kernelcleaner.cpp.o
+.PHONY : src/cleaner/kernelcleaner.o
+
+# target to build an object file
+src/cleaner/kernelcleaner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.o
+.PHONY : src/cleaner/kernelcleaner.cpp.o
+
+src/cleaner/kernelcleaner.i: src/cleaner/kernelcleaner.cpp.i
+.PHONY : src/cleaner/kernelcleaner.i
+
+# target to preprocess a source file
+src/cleaner/kernelcleaner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.i
+.PHONY : src/cleaner/kernelcleaner.cpp.i
+
+src/cleaner/kernelcleaner.s: src/cleaner/kernelcleaner.cpp.s
+.PHONY : src/cleaner/kernelcleaner.s
+
+# target to generate assembly for a file
+src/cleaner/kernelcleaner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.s
+.PHONY : src/cleaner/kernelcleaner.cpp.s
+
 src/cleaner/logcleaner.o: src/cleaner/logcleaner.cpp.o
 .PHONY : src/cleaner/logcleaner.o
 
@@ -387,6 +411,30 @@ src/cleaner/packagecleaner.s: src/cleaner/packagecleaner.cpp.s
 src/cleaner/packagecleaner.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/cleaner/packagecleaner.cpp.s
 .PHONY : src/cleaner/packagecleaner.cpp.s
+
+src/cleaner/performancecleaner.o: src/cleaner/performancecleaner.cpp.o
+.PHONY : src/cleaner/performancecleaner.o
+
+# target to build an object file
+src/cleaner/performancecleaner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.o
+.PHONY : src/cleaner/performancecleaner.cpp.o
+
+src/cleaner/performancecleaner.i: src/cleaner/performancecleaner.cpp.i
+.PHONY : src/cleaner/performancecleaner.i
+
+# target to preprocess a source file
+src/cleaner/performancecleaner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.i
+.PHONY : src/cleaner/performancecleaner.cpp.i
+
+src/cleaner/performancecleaner.s: src/cleaner/performancecleaner.cpp.s
+.PHONY : src/cleaner/performancecleaner.s
+
+# target to generate assembly for a file
+src/cleaner/performancecleaner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.s
+.PHONY : src/cleaner/performancecleaner.cpp.s
 
 src/cleaner/privacycleaner.o: src/cleaner/privacycleaner.cpp.o
 .PHONY : src/cleaner/privacycleaner.o
@@ -652,6 +700,30 @@ src/ui/dashboard.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/ui/dashboard.cpp.s
 .PHONY : src/ui/dashboard.cpp.s
 
+src/ui/kernelpage.o: src/ui/kernelpage.cpp.o
+.PHONY : src/ui/kernelpage.o
+
+# target to build an object file
+src/ui/kernelpage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.o
+.PHONY : src/ui/kernelpage.cpp.o
+
+src/ui/kernelpage.i: src/ui/kernelpage.cpp.i
+.PHONY : src/ui/kernelpage.i
+
+# target to preprocess a source file
+src/ui/kernelpage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.i
+.PHONY : src/ui/kernelpage.cpp.i
+
+src/ui/kernelpage.s: src/ui/kernelpage.cpp.s
+.PHONY : src/ui/kernelpage.s
+
+# target to generate assembly for a file
+src/ui/kernelpage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.s
+.PHONY : src/ui/kernelpage.cpp.s
+
 src/ui/logviewer.o: src/ui/logviewer.cpp.o
 .PHONY : src/ui/logviewer.o
 
@@ -675,6 +747,30 @@ src/ui/logviewer.s: src/ui/logviewer.cpp.s
 src/ui/logviewer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/ui/logviewer.cpp.s
 .PHONY : src/ui/logviewer.cpp.s
+
+src/ui/optimizerpage.o: src/ui/optimizerpage.cpp.o
+.PHONY : src/ui/optimizerpage.o
+
+# target to build an object file
+src/ui/optimizerpage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.o
+.PHONY : src/ui/optimizerpage.cpp.o
+
+src/ui/optimizerpage.i: src/ui/optimizerpage.cpp.i
+.PHONY : src/ui/optimizerpage.i
+
+# target to preprocess a source file
+src/ui/optimizerpage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.i
+.PHONY : src/ui/optimizerpage.cpp.i
+
+src/ui/optimizerpage.s: src/ui/optimizerpage.cpp.s
+.PHONY : src/ui/optimizerpage.s
+
+# target to generate assembly for a file
+src/ui/optimizerpage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StellarCleaner.dir/build.make CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.s
+.PHONY : src/ui/optimizerpage.cpp.s
 
 src/ui/settingspage.o: src/ui/settingspage.cpp.o
 .PHONY : src/ui/settingspage.o
@@ -900,12 +996,18 @@ help:
 	@echo "... src/cleaner/browsercleaner.o"
 	@echo "... src/cleaner/browsercleaner.i"
 	@echo "... src/cleaner/browsercleaner.s"
+	@echo "... src/cleaner/kernelcleaner.o"
+	@echo "... src/cleaner/kernelcleaner.i"
+	@echo "... src/cleaner/kernelcleaner.s"
 	@echo "... src/cleaner/logcleaner.o"
 	@echo "... src/cleaner/logcleaner.i"
 	@echo "... src/cleaner/logcleaner.s"
 	@echo "... src/cleaner/packagecleaner.o"
 	@echo "... src/cleaner/packagecleaner.i"
 	@echo "... src/cleaner/packagecleaner.s"
+	@echo "... src/cleaner/performancecleaner.o"
+	@echo "... src/cleaner/performancecleaner.i"
+	@echo "... src/cleaner/performancecleaner.s"
 	@echo "... src/cleaner/privacycleaner.o"
 	@echo "... src/cleaner/privacycleaner.i"
 	@echo "... src/cleaner/privacycleaner.s"
@@ -939,9 +1041,15 @@ help:
 	@echo "... src/ui/dashboard.o"
 	@echo "... src/ui/dashboard.i"
 	@echo "... src/ui/dashboard.s"
+	@echo "... src/ui/kernelpage.o"
+	@echo "... src/ui/kernelpage.i"
+	@echo "... src/ui/kernelpage.s"
 	@echo "... src/ui/logviewer.o"
 	@echo "... src/ui/logviewer.i"
 	@echo "... src/ui/logviewer.s"
+	@echo "... src/ui/optimizerpage.o"
+	@echo "... src/ui/optimizerpage.i"
+	@echo "... src/ui/optimizerpage.s"
 	@echo "... src/ui/settingspage.o"
 	@echo "... src/ui/settingspage.i"
 	@echo "... src/ui/settingspage.s"
