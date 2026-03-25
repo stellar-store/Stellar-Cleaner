@@ -534,6 +534,12 @@ CMakeFiles/StellarCleaner.dir/src/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qfileinfo.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
+ /home/gus/Downloads/Cleaner/src/ui/kernelpage.h \
+ /home/gus/Downloads/Cleaner/src/ui/../cleaner/kernelcleaner.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QProcess \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qprocess.h \
+ /home/gus/Downloads/Cleaner/src/ui/optimizerpage.h \
+ /home/gus/Downloads/Cleaner/src/ui/../cleaner/performancecleaner.h \
  /home/gus/Downloads/Cleaner/src/ui/toolspage.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \

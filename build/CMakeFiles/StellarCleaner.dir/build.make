@@ -82,6 +82,7 @@ StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/gus/Downloads/Cleaner
 StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/gus/Downloads/Cleaner/resources/icons/clean.png
 StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/gus/Downloads/Cleaner/resources/icons/analyze.png
 StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/gus/Downloads/Cleaner/resources/icons/settings.png
+StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/gus/Downloads/Cleaner/resources/icons/optimizacion.png
 StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/gus/Downloads/Cleaner/resources/icons/stellarcleaner.png
 StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/gus/Downloads/Cleaner/resources/icons/tools.png
 StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/gus/Downloads/Cleaner/resources/icons/home.png
@@ -201,10 +202,38 @@ CMakeFiles/StellarCleaner.dir/src/ui/analyzerpage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StellarCleaner.dir/src/ui/analyzerpage.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gus/Downloads/Cleaner/src/ui/analyzerpage.cpp -o CMakeFiles/StellarCleaner.dir/src/ui/analyzerpage.cpp.s
 
+CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
+CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.o: /home/gus/Downloads/Cleaner/src/ui/kernelpage.cpp
+CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.o -c /home/gus/Downloads/Cleaner/src/ui/kernelpage.cpp
+
+CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gus/Downloads/Cleaner/src/ui/kernelpage.cpp > CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.i
+
+CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gus/Downloads/Cleaner/src/ui/kernelpage.cpp -o CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.s
+
+CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
+CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.o: /home/gus/Downloads/Cleaner/src/ui/optimizerpage.cpp
+CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.o -c /home/gus/Downloads/Cleaner/src/ui/optimizerpage.cpp
+
+CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gus/Downloads/Cleaner/src/ui/optimizerpage.cpp > CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.i
+
+CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gus/Downloads/Cleaner/src/ui/optimizerpage.cpp -o CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.s
+
 CMakeFiles/StellarCleaner.dir/src/ui/toolspage.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/ui/toolspage.cpp.o: /home/gus/Downloads/Cleaner/src/ui/toolspage.cpp
 CMakeFiles/StellarCleaner.dir/src/ui/toolspage.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/StellarCleaner.dir/src/ui/toolspage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/StellarCleaner.dir/src/ui/toolspage.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/ui/toolspage.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/ui/toolspage.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/ui/toolspage.cpp.o -c /home/gus/Downloads/Cleaner/src/ui/toolspage.cpp
 
 CMakeFiles/StellarCleaner.dir/src/ui/toolspage.cpp.i: cmake_force
@@ -218,7 +247,7 @@ CMakeFiles/StellarCleaner.dir/src/ui/toolspage.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/ui/settingspage.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/ui/settingspage.cpp.o: /home/gus/Downloads/Cleaner/src/ui/settingspage.cpp
 CMakeFiles/StellarCleaner.dir/src/ui/settingspage.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/StellarCleaner.dir/src/ui/settingspage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/StellarCleaner.dir/src/ui/settingspage.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/ui/settingspage.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/ui/settingspage.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/ui/settingspage.cpp.o -c /home/gus/Downloads/Cleaner/src/ui/settingspage.cpp
 
 CMakeFiles/StellarCleaner.dir/src/ui/settingspage.cpp.i: cmake_force
@@ -232,7 +261,7 @@ CMakeFiles/StellarCleaner.dir/src/ui/settingspage.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/ui/logviewer.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/ui/logviewer.cpp.o: /home/gus/Downloads/Cleaner/src/ui/logviewer.cpp
 CMakeFiles/StellarCleaner.dir/src/ui/logviewer.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/StellarCleaner.dir/src/ui/logviewer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/StellarCleaner.dir/src/ui/logviewer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/ui/logviewer.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/ui/logviewer.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/ui/logviewer.cpp.o -c /home/gus/Downloads/Cleaner/src/ui/logviewer.cpp
 
 CMakeFiles/StellarCleaner.dir/src/ui/logviewer.cpp.i: cmake_force
@@ -246,7 +275,7 @@ CMakeFiles/StellarCleaner.dir/src/ui/logviewer.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/cleaner/basecleaner.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/cleaner/basecleaner.cpp.o: /home/gus/Downloads/Cleaner/src/cleaner/basecleaner.cpp
 CMakeFiles/StellarCleaner.dir/src/cleaner/basecleaner.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/basecleaner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/basecleaner.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/cleaner/basecleaner.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/cleaner/basecleaner.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/cleaner/basecleaner.cpp.o -c /home/gus/Downloads/Cleaner/src/cleaner/basecleaner.cpp
 
 CMakeFiles/StellarCleaner.dir/src/cleaner/basecleaner.cpp.i: cmake_force
@@ -260,7 +289,7 @@ CMakeFiles/StellarCleaner.dir/src/cleaner/basecleaner.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/cleaner/tempcleaner.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/cleaner/tempcleaner.cpp.o: /home/gus/Downloads/Cleaner/src/cleaner/tempcleaner.cpp
 CMakeFiles/StellarCleaner.dir/src/cleaner/tempcleaner.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/tempcleaner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/tempcleaner.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/cleaner/tempcleaner.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/cleaner/tempcleaner.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/cleaner/tempcleaner.cpp.o -c /home/gus/Downloads/Cleaner/src/cleaner/tempcleaner.cpp
 
 CMakeFiles/StellarCleaner.dir/src/cleaner/tempcleaner.cpp.i: cmake_force
@@ -274,7 +303,7 @@ CMakeFiles/StellarCleaner.dir/src/cleaner/tempcleaner.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/cleaner/browsercleaner.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/cleaner/browsercleaner.cpp.o: /home/gus/Downloads/Cleaner/src/cleaner/browsercleaner.cpp
 CMakeFiles/StellarCleaner.dir/src/cleaner/browsercleaner.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/browsercleaner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/browsercleaner.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/cleaner/browsercleaner.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/cleaner/browsercleaner.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/cleaner/browsercleaner.cpp.o -c /home/gus/Downloads/Cleaner/src/cleaner/browsercleaner.cpp
 
 CMakeFiles/StellarCleaner.dir/src/cleaner/browsercleaner.cpp.i: cmake_force
@@ -288,7 +317,7 @@ CMakeFiles/StellarCleaner.dir/src/cleaner/browsercleaner.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/cleaner/logcleaner.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/cleaner/logcleaner.cpp.o: /home/gus/Downloads/Cleaner/src/cleaner/logcleaner.cpp
 CMakeFiles/StellarCleaner.dir/src/cleaner/logcleaner.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/logcleaner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/logcleaner.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/cleaner/logcleaner.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/cleaner/logcleaner.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/cleaner/logcleaner.cpp.o -c /home/gus/Downloads/Cleaner/src/cleaner/logcleaner.cpp
 
 CMakeFiles/StellarCleaner.dir/src/cleaner/logcleaner.cpp.i: cmake_force
@@ -302,7 +331,7 @@ CMakeFiles/StellarCleaner.dir/src/cleaner/logcleaner.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/cleaner/packagecleaner.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/cleaner/packagecleaner.cpp.o: /home/gus/Downloads/Cleaner/src/cleaner/packagecleaner.cpp
 CMakeFiles/StellarCleaner.dir/src/cleaner/packagecleaner.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/packagecleaner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/packagecleaner.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/cleaner/packagecleaner.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/cleaner/packagecleaner.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/cleaner/packagecleaner.cpp.o -c /home/gus/Downloads/Cleaner/src/cleaner/packagecleaner.cpp
 
 CMakeFiles/StellarCleaner.dir/src/cleaner/packagecleaner.cpp.i: cmake_force
@@ -316,7 +345,7 @@ CMakeFiles/StellarCleaner.dir/src/cleaner/packagecleaner.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/cleaner/privacycleaner.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/cleaner/privacycleaner.cpp.o: /home/gus/Downloads/Cleaner/src/cleaner/privacycleaner.cpp
 CMakeFiles/StellarCleaner.dir/src/cleaner/privacycleaner.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/privacycleaner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/privacycleaner.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/cleaner/privacycleaner.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/cleaner/privacycleaner.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/cleaner/privacycleaner.cpp.o -c /home/gus/Downloads/Cleaner/src/cleaner/privacycleaner.cpp
 
 CMakeFiles/StellarCleaner.dir/src/cleaner/privacycleaner.cpp.i: cmake_force
@@ -330,7 +359,7 @@ CMakeFiles/StellarCleaner.dir/src/cleaner/privacycleaner.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/cleaner/trashcleaner.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/cleaner/trashcleaner.cpp.o: /home/gus/Downloads/Cleaner/src/cleaner/trashcleaner.cpp
 CMakeFiles/StellarCleaner.dir/src/cleaner/trashcleaner.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/trashcleaner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/trashcleaner.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/cleaner/trashcleaner.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/cleaner/trashcleaner.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/cleaner/trashcleaner.cpp.o -c /home/gus/Downloads/Cleaner/src/cleaner/trashcleaner.cpp
 
 CMakeFiles/StellarCleaner.dir/src/cleaner/trashcleaner.cpp.i: cmake_force
@@ -341,10 +370,38 @@ CMakeFiles/StellarCleaner.dir/src/cleaner/trashcleaner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StellarCleaner.dir/src/cleaner/trashcleaner.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gus/Downloads/Cleaner/src/cleaner/trashcleaner.cpp -o CMakeFiles/StellarCleaner.dir/src/cleaner/trashcleaner.cpp.s
 
+CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
+CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.o: /home/gus/Downloads/Cleaner/src/cleaner/kernelcleaner.cpp
+CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.o -c /home/gus/Downloads/Cleaner/src/cleaner/kernelcleaner.cpp
+
+CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gus/Downloads/Cleaner/src/cleaner/kernelcleaner.cpp > CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.i
+
+CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gus/Downloads/Cleaner/src/cleaner/kernelcleaner.cpp -o CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.s
+
+CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
+CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.o: /home/gus/Downloads/Cleaner/src/cleaner/performancecleaner.cpp
+CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.o -c /home/gus/Downloads/Cleaner/src/cleaner/performancecleaner.cpp
+
+CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gus/Downloads/Cleaner/src/cleaner/performancecleaner.cpp > CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.i
+
+CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gus/Downloads/Cleaner/src/cleaner/performancecleaner.cpp -o CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.s
+
 CMakeFiles/StellarCleaner.dir/src/analyzer/diskanalyzer.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/analyzer/diskanalyzer.cpp.o: /home/gus/Downloads/Cleaner/src/analyzer/diskanalyzer.cpp
 CMakeFiles/StellarCleaner.dir/src/analyzer/diskanalyzer.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/StellarCleaner.dir/src/analyzer/diskanalyzer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/StellarCleaner.dir/src/analyzer/diskanalyzer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/analyzer/diskanalyzer.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/analyzer/diskanalyzer.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/analyzer/diskanalyzer.cpp.o -c /home/gus/Downloads/Cleaner/src/analyzer/diskanalyzer.cpp
 
 CMakeFiles/StellarCleaner.dir/src/analyzer/diskanalyzer.cpp.i: cmake_force
@@ -358,7 +415,7 @@ CMakeFiles/StellarCleaner.dir/src/analyzer/diskanalyzer.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/tools/startupmanager.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/tools/startupmanager.cpp.o: /home/gus/Downloads/Cleaner/src/tools/startupmanager.cpp
 CMakeFiles/StellarCleaner.dir/src/tools/startupmanager.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/StellarCleaner.dir/src/tools/startupmanager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/StellarCleaner.dir/src/tools/startupmanager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/tools/startupmanager.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/tools/startupmanager.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/tools/startupmanager.cpp.o -c /home/gus/Downloads/Cleaner/src/tools/startupmanager.cpp
 
 CMakeFiles/StellarCleaner.dir/src/tools/startupmanager.cpp.i: cmake_force
@@ -372,7 +429,7 @@ CMakeFiles/StellarCleaner.dir/src/tools/startupmanager.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/tools/processmanager.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/tools/processmanager.cpp.o: /home/gus/Downloads/Cleaner/src/tools/processmanager.cpp
 CMakeFiles/StellarCleaner.dir/src/tools/processmanager.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/StellarCleaner.dir/src/tools/processmanager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/StellarCleaner.dir/src/tools/processmanager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/tools/processmanager.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/tools/processmanager.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/tools/processmanager.cpp.o -c /home/gus/Downloads/Cleaner/src/tools/processmanager.cpp
 
 CMakeFiles/StellarCleaner.dir/src/tools/processmanager.cpp.i: cmake_force
@@ -386,7 +443,7 @@ CMakeFiles/StellarCleaner.dir/src/tools/processmanager.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/tools/uninstallmanager.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/tools/uninstallmanager.cpp.o: /home/gus/Downloads/Cleaner/src/tools/uninstallmanager.cpp
 CMakeFiles/StellarCleaner.dir/src/tools/uninstallmanager.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/StellarCleaner.dir/src/tools/uninstallmanager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/StellarCleaner.dir/src/tools/uninstallmanager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/tools/uninstallmanager.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/tools/uninstallmanager.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/tools/uninstallmanager.cpp.o -c /home/gus/Downloads/Cleaner/src/tools/uninstallmanager.cpp
 
 CMakeFiles/StellarCleaner.dir/src/tools/uninstallmanager.cpp.i: cmake_force
@@ -400,7 +457,7 @@ CMakeFiles/StellarCleaner.dir/src/tools/uninstallmanager.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/utils/fileutils.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/utils/fileutils.cpp.o: /home/gus/Downloads/Cleaner/src/utils/fileutils.cpp
 CMakeFiles/StellarCleaner.dir/src/utils/fileutils.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/StellarCleaner.dir/src/utils/fileutils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/StellarCleaner.dir/src/utils/fileutils.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/utils/fileutils.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/utils/fileutils.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/utils/fileutils.cpp.o -c /home/gus/Downloads/Cleaner/src/utils/fileutils.cpp
 
 CMakeFiles/StellarCleaner.dir/src/utils/fileutils.cpp.i: cmake_force
@@ -414,7 +471,7 @@ CMakeFiles/StellarCleaner.dir/src/utils/fileutils.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/utils/systeminfo.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/utils/systeminfo.cpp.o: /home/gus/Downloads/Cleaner/src/utils/systeminfo.cpp
 CMakeFiles/StellarCleaner.dir/src/utils/systeminfo.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/StellarCleaner.dir/src/utils/systeminfo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/StellarCleaner.dir/src/utils/systeminfo.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/utils/systeminfo.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/utils/systeminfo.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/utils/systeminfo.cpp.o -c /home/gus/Downloads/Cleaner/src/utils/systeminfo.cpp
 
 CMakeFiles/StellarCleaner.dir/src/utils/systeminfo.cpp.i: cmake_force
@@ -428,7 +485,7 @@ CMakeFiles/StellarCleaner.dir/src/utils/systeminfo.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/utils/sudohelper.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/utils/sudohelper.cpp.o: /home/gus/Downloads/Cleaner/src/utils/sudohelper.cpp
 CMakeFiles/StellarCleaner.dir/src/utils/sudohelper.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/StellarCleaner.dir/src/utils/sudohelper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/StellarCleaner.dir/src/utils/sudohelper.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/utils/sudohelper.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/utils/sudohelper.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/utils/sudohelper.cpp.o -c /home/gus/Downloads/Cleaner/src/utils/sudohelper.cpp
 
 CMakeFiles/StellarCleaner.dir/src/utils/sudohelper.cpp.i: cmake_force
@@ -442,7 +499,7 @@ CMakeFiles/StellarCleaner.dir/src/utils/sudohelper.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/src/utils/scheduler.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/src/utils/scheduler.cpp.o: /home/gus/Downloads/Cleaner/src/utils/scheduler.cpp
 CMakeFiles/StellarCleaner.dir/src/utils/scheduler.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/StellarCleaner.dir/src/utils/scheduler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/StellarCleaner.dir/src/utils/scheduler.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/src/utils/scheduler.cpp.o -MF CMakeFiles/StellarCleaner.dir/src/utils/scheduler.cpp.o.d -o CMakeFiles/StellarCleaner.dir/src/utils/scheduler.cpp.o -c /home/gus/Downloads/Cleaner/src/utils/scheduler.cpp
 
 CMakeFiles/StellarCleaner.dir/src/utils/scheduler.cpp.i: cmake_force
@@ -456,7 +513,7 @@ CMakeFiles/StellarCleaner.dir/src/utils/scheduler.cpp.s: cmake_force
 CMakeFiles/StellarCleaner.dir/StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp.o: CMakeFiles/StellarCleaner.dir/flags.make
 CMakeFiles/StellarCleaner.dir/StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp.o: StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp
 CMakeFiles/StellarCleaner.dir/StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp.o: CMakeFiles/StellarCleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/StellarCleaner.dir/StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/StellarCleaner.dir/StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StellarCleaner.dir/StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp.o -MF CMakeFiles/StellarCleaner.dir/StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp.o.d -o CMakeFiles/StellarCleaner.dir/StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp.o -c /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp
 
 CMakeFiles/StellarCleaner.dir/StellarCleaner_autogen/3YJK5W5UP7/qrc_resources.cpp.i: cmake_force
@@ -477,6 +534,8 @@ StellarCleaner_OBJECTS = \
 "CMakeFiles/StellarCleaner.dir/src/ui/dashboard.cpp.o" \
 "CMakeFiles/StellarCleaner.dir/src/ui/cleanerpage.cpp.o" \
 "CMakeFiles/StellarCleaner.dir/src/ui/analyzerpage.cpp.o" \
+"CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.o" \
+"CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.o" \
 "CMakeFiles/StellarCleaner.dir/src/ui/toolspage.cpp.o" \
 "CMakeFiles/StellarCleaner.dir/src/ui/settingspage.cpp.o" \
 "CMakeFiles/StellarCleaner.dir/src/ui/logviewer.cpp.o" \
@@ -487,6 +546,8 @@ StellarCleaner_OBJECTS = \
 "CMakeFiles/StellarCleaner.dir/src/cleaner/packagecleaner.cpp.o" \
 "CMakeFiles/StellarCleaner.dir/src/cleaner/privacycleaner.cpp.o" \
 "CMakeFiles/StellarCleaner.dir/src/cleaner/trashcleaner.cpp.o" \
+"CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.o" \
+"CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.o" \
 "CMakeFiles/StellarCleaner.dir/src/analyzer/diskanalyzer.cpp.o" \
 "CMakeFiles/StellarCleaner.dir/src/tools/startupmanager.cpp.o" \
 "CMakeFiles/StellarCleaner.dir/src/tools/processmanager.cpp.o" \
@@ -508,6 +569,8 @@ StellarCleaner: CMakeFiles/StellarCleaner.dir/src/ui/titlebar.cpp.o
 StellarCleaner: CMakeFiles/StellarCleaner.dir/src/ui/dashboard.cpp.o
 StellarCleaner: CMakeFiles/StellarCleaner.dir/src/ui/cleanerpage.cpp.o
 StellarCleaner: CMakeFiles/StellarCleaner.dir/src/ui/analyzerpage.cpp.o
+StellarCleaner: CMakeFiles/StellarCleaner.dir/src/ui/kernelpage.cpp.o
+StellarCleaner: CMakeFiles/StellarCleaner.dir/src/ui/optimizerpage.cpp.o
 StellarCleaner: CMakeFiles/StellarCleaner.dir/src/ui/toolspage.cpp.o
 StellarCleaner: CMakeFiles/StellarCleaner.dir/src/ui/settingspage.cpp.o
 StellarCleaner: CMakeFiles/StellarCleaner.dir/src/ui/logviewer.cpp.o
@@ -518,6 +581,8 @@ StellarCleaner: CMakeFiles/StellarCleaner.dir/src/cleaner/logcleaner.cpp.o
 StellarCleaner: CMakeFiles/StellarCleaner.dir/src/cleaner/packagecleaner.cpp.o
 StellarCleaner: CMakeFiles/StellarCleaner.dir/src/cleaner/privacycleaner.cpp.o
 StellarCleaner: CMakeFiles/StellarCleaner.dir/src/cleaner/trashcleaner.cpp.o
+StellarCleaner: CMakeFiles/StellarCleaner.dir/src/cleaner/kernelcleaner.cpp.o
+StellarCleaner: CMakeFiles/StellarCleaner.dir/src/cleaner/performancecleaner.cpp.o
 StellarCleaner: CMakeFiles/StellarCleaner.dir/src/analyzer/diskanalyzer.cpp.o
 StellarCleaner: CMakeFiles/StellarCleaner.dir/src/tools/startupmanager.cpp.o
 StellarCleaner: CMakeFiles/StellarCleaner.dir/src/tools/processmanager.cpp.o
@@ -538,7 +603,7 @@ StellarCleaner: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 StellarCleaner: /usr/lib/x86_64-linux-gnu/libGLX.so
 StellarCleaner: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 StellarCleaner: CMakeFiles/StellarCleaner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable StellarCleaner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gus/Downloads/Cleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable StellarCleaner"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StellarCleaner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

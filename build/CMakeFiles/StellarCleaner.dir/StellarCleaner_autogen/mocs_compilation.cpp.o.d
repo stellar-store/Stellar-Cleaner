@@ -372,11 +372,17 @@ CMakeFiles/StellarCleaner.dir/StellarCleaner_autogen/mocs_compilation.cpp.o: \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/VFUFIHL3T7/../../../src/cleaner/browsercleaner.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMap \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h \
+ /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/VFUFIHL3T7/moc_kernelcleaner.cpp \
+ /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/VFUFIHL3T7/../../../src/cleaner/kernelcleaner.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QProcess \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qprocess.h \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/VFUFIHL3T7/moc_logcleaner.cpp \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/VFUFIHL3T7/../../../src/cleaner/logcleaner.h \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/VFUFIHL3T7/moc_packagecleaner.cpp \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/VFUFIHL3T7/../../../src/cleaner/packagecleaner.h \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/VFUFIHL3T7/../../../src/cleaner/../utils/systeminfo.h \
+ /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/VFUFIHL3T7/moc_performancecleaner.cpp \
+ /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/VFUFIHL3T7/../../../src/cleaner/performancecleaner.h \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/VFUFIHL3T7/moc_privacycleaner.cpp \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/VFUFIHL3T7/../../../src/cleaner/privacycleaner.h \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/VFUFIHL3T7/moc_tempcleaner.cpp \
@@ -548,6 +554,8 @@ CMakeFiles/StellarCleaner.dir/StellarCleaner_autogen/mocs_compilation.cpp.o: \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/UVLADIE3JM/../../../src/ui/analyzerpage.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcombobox.h \
+ /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/UVLADIE3JM/../../../src/ui/kernelpage.h \
+ /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/UVLADIE3JM/../../../src/ui/optimizerpage.h \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/UVLADIE3JM/../../../src/ui/toolspage.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
@@ -575,6 +583,7 @@ CMakeFiles/StellarCleaner.dir/StellarCleaner_autogen/mocs_compilation.cpp.o: \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/YPKJ5OE7LN/moc_analyzerpage.cpp \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/YPKJ5OE7LN/moc_cleanerpage.cpp \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/YPKJ5OE7LN/moc_dashboard.cpp \
+ /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/YPKJ5OE7LN/moc_kernelpage.cpp \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/YPKJ5OE7LN/moc_logviewer.cpp \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/YPKJ5OE7LN/../../../src/ui/logviewer.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPlainTextEdit \
@@ -585,6 +594,7 @@ CMakeFiles/StellarCleaner.dir/StellarCleaner_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qglyphrun.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qrawfont.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontdatabase.h \
+ /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/YPKJ5OE7LN/moc_optimizerpage.cpp \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/YPKJ5OE7LN/moc_settingspage.cpp \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/YPKJ5OE7LN/moc_sidebar.cpp \
  /home/gus/Downloads/Cleaner/build/StellarCleaner_autogen/YPKJ5OE7LN/moc_titlebar.cpp \

@@ -242,6 +242,12 @@
 			null
 		],
 		[
+			"/home/gus/Downloads/Cleaner/src/cleaner/kernelcleaner.h",
+			"MU",
+			"VFUFIHL3T7/moc_kernelcleaner.cpp",
+			null
+		],
+		[
 			"/home/gus/Downloads/Cleaner/src/cleaner/logcleaner.h",
 			"MU",
 			"VFUFIHL3T7/moc_logcleaner.cpp",
@@ -251,6 +257,12 @@
 			"/home/gus/Downloads/Cleaner/src/cleaner/packagecleaner.h",
 			"MU",
 			"VFUFIHL3T7/moc_packagecleaner.cpp",
+			null
+		],
+		[
+			"/home/gus/Downloads/Cleaner/src/cleaner/performancecleaner.h",
+			"MU",
+			"VFUFIHL3T7/moc_performancecleaner.cpp",
 			null
 		],
 		[
@@ -314,9 +326,21 @@
 			null
 		],
 		[
+			"/home/gus/Downloads/Cleaner/src/ui/kernelpage.h",
+			"MU",
+			"YPKJ5OE7LN/moc_kernelpage.cpp",
+			null
+		],
+		[
 			"/home/gus/Downloads/Cleaner/src/ui/logviewer.h",
 			"MU",
 			"YPKJ5OE7LN/moc_logviewer.cpp",
+			null
+		],
+		[
+			"/home/gus/Downloads/Cleaner/src/ui/optimizerpage.h",
+			"MU",
+			"YPKJ5OE7LN/moc_optimizerpage.cpp",
 			null
 		],
 		[
@@ -451,9 +475,19 @@
 			"MU",
 			null
 		],
+		[
+			"/home/gus/Downloads/Cleaner/src/cleaner/kernelcleaner.cpp",
+			"MU",
+			null
+		],
 		[ "/home/gus/Downloads/Cleaner/src/cleaner/logcleaner.cpp", "MU", null ],
 		[
 			"/home/gus/Downloads/Cleaner/src/cleaner/packagecleaner.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/gus/Downloads/Cleaner/src/cleaner/performancecleaner.cpp",
 			"MU",
 			null
 		],
@@ -488,7 +522,9 @@
 		[ "/home/gus/Downloads/Cleaner/src/ui/analyzerpage.cpp", "MU", null ],
 		[ "/home/gus/Downloads/Cleaner/src/ui/cleanerpage.cpp", "MU", null ],
 		[ "/home/gus/Downloads/Cleaner/src/ui/dashboard.cpp", "MU", null ],
+		[ "/home/gus/Downloads/Cleaner/src/ui/kernelpage.cpp", "MU", null ],
 		[ "/home/gus/Downloads/Cleaner/src/ui/logviewer.cpp", "MU", null ],
+		[ "/home/gus/Downloads/Cleaner/src/ui/optimizerpage.cpp", "MU", null ],
 		[ "/home/gus/Downloads/Cleaner/src/ui/settingspage.cpp", "MU", null ],
 		[ "/home/gus/Downloads/Cleaner/src/ui/sidebar.cpp", "MU", null ],
 		[ "/home/gus/Downloads/Cleaner/src/ui/titlebar.cpp", "MU", null ],
